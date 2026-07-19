@@ -93,7 +93,11 @@ article {
     color: white;
 }
 
-h2 {
+article h2 {
+    text-align: center;
+}
+
+section h2 {
     background-color: var(--accent1-color);
     text-align: center;
     padding: 16px;
