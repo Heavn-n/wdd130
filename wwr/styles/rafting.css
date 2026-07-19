@@ -1,6 +1,6 @@
 :root {
     --primary-color: white;
-    --secondary-color: #f4a261;
+    --secondary-color: gray;
     --accent1-color: #264653;
     --accent2-color: #e9c46a;
     --heading-font: optima;
@@ -21,7 +21,7 @@ header {
 nav a {
     color: #2596be;
     text-decoration: none;
-    font-family: optima;
+    font-family: var(--heading-font);
 }
 
 body {
@@ -59,9 +59,12 @@ article {
 }
 
 .hero img {
-    display: block;
     width: 100%;
     height: auto;
+}
+
+.hero h1 {
+    position: absolute;
 }
 
 h1 {
@@ -93,4 +96,8 @@ h2 {
     background-color: var(--accent1-color);
     text-align: center;
     padding: 16px;
+}
+
+footer p {
+    color: var(--secondary-color);
 }
